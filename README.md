@@ -92,8 +92,7 @@ This project is a full-stack web application for managing and booking grocery it
 **Admin Endpoints:**
   
   Add Grocery Item:
-
-    ```bash
+  
     POST /admin/grocery
 Body:
 
