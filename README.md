@@ -116,7 +116,7 @@ Remove Grocery Item:
 
 Update Inventory:
 
-    PUT /admin/manage/:id
+    PATCH /admin/manage/:id
 
 Body:
 
