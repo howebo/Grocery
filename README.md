@@ -108,7 +108,7 @@ Update Grocery Item:
 
 Body:
 
-    { "name": "string", "price": "number", "inventory": "number" }
+    { "name": "string", "price": "number" }
 
 Remove Grocery Item:
 
