@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.item-list{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn-rm{
+  background-color: orangered;
+  color: #fff;
+  margin: 13px;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px;
+  width: 78px;
+  height: 26px;
+  cursor: pointer;
+}
+.btn-update-item{
+  background-color: #387ed1;
+  color: #fff;
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px;
+  width: 103px;
+  height: 36px;
+  cursor: pointer;
+}
+.btn-update-inventory{
+  background-color: #387ed1;
+  color: #fff;
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px;
+  width: 126px;
+  height: 36px;
+  cursor: pointer;
+}
+.btn-add{
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px;
+  font-size: 0.9em;
+  width: 98px;
+  height: 40px;
+  cursor: pointer;
+}
+.btn-add-view{
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px;
+  width: 79px;
+  height: 31px;
+  cursor: pointer;
+}
+.input{
+  margin: 3px;
+  background-color: #fff !important;
+  color: #333 !important;
+  border-color: #ccc !important;
+  border-radius: 4px !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 14px !important;
+  height: auto;
+  line-height: 21px !important;
+  padding: 10px 10px !important;
+  box-sizing: border-box !important;
+}
+.input-view{
+  margin: 17px;
+  background-color: #fff !important;
+  color: #333 !important;
+  border-color: #ccc !important;
+  border-radius: 4px !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 14px !important;
+  height: auto;
+  line-height: 21px !important;
+  padding: 10px 10px !important;
+  box-sizing: border-box !important;
+}
+.list-admin{
+  background-color: #387ed1 !important;
+  color: #fff !important;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px !important;
+  font-size: 0.9em !important;
+  width: 98px !important;
+  height: 40px !important;
+  cursor: pointer !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
