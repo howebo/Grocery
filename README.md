@@ -93,18 +93,18 @@ This project is a full-stack web application for managing and booking grocery it
   
   Add Grocery Item:
   
-    POST /admin/grocery
+    POST /admin/add
 Body:
 
     { "name": "string", "price": "number", "inventory": "number" }
 
 View Grocery Items:
 
-    GET /admin/grocery
+    GET /admin/view
 
 Update Grocery Item:
 
-    PUT /admin/grocery/:id
+    PUT /admin/update/:id
 
 Body:
 
@@ -112,11 +112,11 @@ Body:
 
 Remove Grocery Item:
 
-    DELETE /admin/grocery/:id
+    DELETE /admin/remove/:id
 
 Update Inventory:
 
-    PUT /admin/grocery/:id/inventory
+    PUT /admin/manage/:id
 
 Body:
 
@@ -126,7 +126,7 @@ Body:
  
 View Grocery Items
 
-    GET /user/grocery
+    GET /user/view
     
 Book Grocery Items:
 
