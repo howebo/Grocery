@@ -45,7 +45,7 @@ This project is a full-stack web application for managing and booking grocery it
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/howebo/qp-assessment.git
+   git clone https://github.com/howebo/Grocery.git
    cd qp-assessment/backend
 
 2. **Install dependencies:**
